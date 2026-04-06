@@ -408,7 +408,7 @@
     animation: float 4s ease-in-out infinite;
 }
 /* Offset the timing so they don't all float at the exact same time */
-.box2 img { animation-delay: 0.5s; }
+.box2 img { animation-delay: 0.5; }
 .box4 img { animation-delay: 1s; }
 .box6 img { animation-delay: 1.5s; }
 
