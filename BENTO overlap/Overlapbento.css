@@ -1,4 +1,4 @@
-.main-bentobox {
+    .main-bentobox {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     /* Fixed 8 columns for your area map */
@@ -421,7 +421,7 @@
 /* Special Case: The Box 5 Hero */
 .box5:hover img {
     /* Keeps the horizontal centering while adding the scale */
-    transform: translateX(-50%) scale(1.05); 
+    transform: translateX(-50%) scale(1.05) ; 
 }
 
 /* ti di lwoj oi fto si idi l */
