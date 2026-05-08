@@ -10,8 +10,7 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;     
     padding: 18px 20px;
     background-color: #333;
     margin-bottom: 20px;
@@ -20,7 +19,7 @@ body{
     font-size: 20px;
     font-weight: bolder;
     color: white;
-    text-shadow: 1px 1px 20px red;
+    text-shadow: 2px 1px 8px yellow;
 
 }
 .logo:hover{
@@ -34,10 +33,10 @@ body{
 }
 .navlinks a{
     color: white;
-    text-shadow: 0.2px 0.1px 10px blue;
 }
 .navlinks a:hover{
     color: red;
+    text-shadow: 0.2px 0.1px 10px yellow;
     transition: 0.9s;
 }
 
@@ -65,7 +64,6 @@ legend{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
 
 footer{
